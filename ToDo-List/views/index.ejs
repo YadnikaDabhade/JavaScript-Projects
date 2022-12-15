@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html>  <!-- Html tag starts -->
 
-    <head>
+    <head>  <!-- It is a Head Tag -->
         <meta charset="utf-8">
         <title>ToDo List</title>
         <link rel="stylesheet" href="css/styles.css">
     </head>
 
-    <body>
+    <body>   <!-- Here a body tag starts -->
         <div class="box" id="heading">
-            <h1><%=title%></h1>
+             <h1><%=title%></h1> <!-- It is use for Heading Tag -->
         </div>
 
-        <div class="box">
+        <div class="box">   <!-- This tag is use to create a div -->
             <% for(var i=0; i<task.length; i++) {%>
             <div class="item">
                 <input type="checkbox">
@@ -21,16 +21,16 @@
             <%}%>
             
             
-            <form class="item" action="/" method="post">
-                <input type="text" name="newTask" palceholder="New Task" autocomplete="off">
-                <button type="submit" name="button" value=<%=title%>>+</button>
+            <form class="item" action="/" method="post">    <!-- it is used to create a form  -->
+                <input type="text" name="newTask" palceholder="New Task" autocomplete="off">   <!-- it is used for creating input -->
+                <button type="submit" name="button" value=<%=title%>>+</button>    <!-- It is use forcreating button  -->
             </form>
         </div>
 
 
     </body>
-    <footer>
+    <footer>   <!-- it is used to show footer -->
         @bhagat_shweta
     </footer>
 
-</html>
+</html>  <!-- Html tag ends -->

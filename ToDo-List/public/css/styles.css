@@ -1,37 +1,37 @@
-html {
-  background-color: #E4E9FD;
-  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
-  min-height: 1000px;
-  font-family: 'helvetica neue';
+html {         
+  background-color: #E4E9FD;   /* it is used to give  background colour */
+  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);  /* it is used to give  background image*/
+  min-height: 1000px;   /* it is used to give max-height */
+  font-family: 'helvetica neue'; /* it is used to give  font-family */
 }
 
 h1 {
-  color: #fff;
-  padding: 10px;
+  color: #fff;         /* it is used to give colour to h1*/ 
+  padding: 10px;           /* it is used to givepadding to h1 */
 }
 
-.box {
-  max-width: 400px;
-  margin: 50px auto;
-  background: white;
-  border-radius: 5px;
-  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+.box {    
+   max-width: 400px;   /* it is used to give max-width  to box*/
+  margin: 50px auto;    /* it is used to give margin  to box*/
+  background: white;   /* it is used to give  background to box */
+  border-radius: 5px;     /* it is used to give   border-radius to box */
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);      /* it is used to give box-shadow to box*/
 }
 
 #heading {
-  background-color: #A683E3;
-  text-align: center;
+  background-color: #A683E3;  /* it is used to give  background colour */
+  text-align: center;           /* it is used to give text-align*/
 }
 
 .item {
-  min-height: 70px;
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid #F1F1F1;
+  min-height: 70px;         /* it is used to give max-height */
+  display: flex;           /* it is used to give display */
+  align-items: center;          /* it is used to give align-items */
+  border-bottom: 1px solid #F1F1F1;   /* it is used to give border-bottom */
 }
 
 .item:last-child {
-  border-bottom: 0;
+  border-bottom: 0;            /* it is used to give border-bottom */
 }
 
 input:checked+p {
